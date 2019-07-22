@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".about_activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Calculator"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#0077ff"
+        android:layout_margin="20sp"/>
+
+    <!-- About programmer -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Programmed By:"
+        android:textColor="#8c8c8c"
+        android:layout_marginStart="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="John Thomas Carlos"
+        android:textColor="#ffffff"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="5sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BS Computer Engineering"
+        android:textColor="#ffffff"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="5sp"/>
+    <TextView
+        android:id="@+id/linkedin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="linkedin.com/in/jtc0913/"
+        android:textColor="#0099ff"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="5sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About App:"
+        android:textColor="#8c8c8c"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="40sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A simple calculator that is developed for practice purpose and enhancement of my skill in developing android applications. \n\n
+This application is developed using Android Studio IDE and Java programming language."
+        android:textColor="#ffffff"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="5sp"/>
+
+
+</LinearLayout>
